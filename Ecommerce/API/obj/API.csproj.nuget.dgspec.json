@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GUSTAVODEALMEIDACIRI\\Desktop\\Nova pasta\\Ecommerce\\API\\API.csproj": {}
+    "C:\\Users\\GUSTAVODEALMEIDACIRI\\Desktop\\Ecommerce_API\\Ecommerce\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GUSTAVODEALMEIDACIRI\\Desktop\\Nova pasta\\Ecommerce\\API\\API.csproj": {
+    "C:\\Users\\GUSTAVODEALMEIDACIRI\\Desktop\\Ecommerce_API\\Ecommerce\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GUSTAVODEALMEIDACIRI\\Desktop\\Nova pasta\\Ecommerce\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\GUSTAVODEALMEIDACIRI\\Desktop\\Ecommerce_API\\Ecommerce\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\GUSTAVODEALMEIDACIRI\\Desktop\\Nova pasta\\Ecommerce\\API\\API.csproj",
+        "projectPath": "C:\\Users\\GUSTAVODEALMEIDACIRI\\Desktop\\Ecommerce_API\\Ecommerce\\API\\API.csproj",
         "packagesPath": "C:\\Users\\GUSTAVODEALMEIDACIRI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GUSTAVODEALMEIDACIRI\\Desktop\\Nova pasta\\Ecommerce\\API\\obj\\",
+        "outputPath": "C:\\Users\\GUSTAVODEALMEIDACIRI\\Desktop\\Ecommerce_API\\Ecommerce\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\GUSTAVODEALMEIDACIRI\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
